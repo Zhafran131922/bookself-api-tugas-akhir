@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "object-curly-spacing": ["error", "always"],
+        "linebreak-style": ["error", "windows"],
+        "no-unused-vars": "off",
+        "no-console":"off"
+    }
+}
